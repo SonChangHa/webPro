@@ -26,6 +26,7 @@ ul{
 li{
     border:1px solid #ddd;
     float: left;
+    display: block;
 
 }
 
@@ -44,7 +45,7 @@ li a {
 }
 
 .cat1:hover + .subcategory{
-    display: inline-block;
+    display: block;
 }
 
 .sub2category{
