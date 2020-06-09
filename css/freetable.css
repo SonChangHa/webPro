@@ -1,0 +1,77 @@
+#body {
+    padding: 8px 10px 0;
+    margin: 0px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginbox {
+    float: left;
+    width: 200px;
+    margin-left: 3px;
+    border:1px solid #ddd;
+}
+
+.category{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    /*background-color: #333;*/
+}
+
+.category:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+.sub2category{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.subcategory {
+    position: absolute;
+    height: 0px;
+    overflow: hidden;
+    width: 574px;
+}
+
+#section {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #444444;
+}
+
+#freepostlist {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid #444444;
+}
+
+#freepostname {
+    width: 70%;
+}
+
+#freepostwriter {
+    width: 15%;
+}
+
+#freeposttime {
+    width: 15%;
+}
+
+#writebutten {
+    margin-left: 70%;
+}

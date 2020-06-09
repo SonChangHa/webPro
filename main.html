@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/html">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link href="./css/main.css" rel="stylesheet" type="text/css" />
+    <title>메인 페이지</title>
+</head>
+
+
+<body id="body">
+<header>
+    <img id="logo" src="./img/로고.png" alt="logo">
+
+    <div id="loginbox">
+        <form name="login" action="./login" method="get">
+            <label>사용자 ID : <input type="text" size="15" value=""><br></label>
+            <label>비밀 번호 : <input type="password" size="15" value=""><br></label>
+            <input type="submit" value="완료">
+        </form>
+    </div>
+
+    <nav id =cat>
+        <ul class="category">
+            <li class="cat1"><a href="#">게임</a></li>
+                <ul class="subcategory">
+                    <li><a href="#">금주의 게임</a></li>
+                    <li><a href="#">이벤트 중인 게임</a></li>
+                    <li><a href="#">장르별 보기</a></li>
+                    <ul class="sub2category">
+                        <li><a href="#">액션</a></li>
+                        <li><a href="#">롤플레잉</a></li>
+                    </ul>
+                </ul>
+
+            <li class="cat1"><a href="#">유저 게시판</a></li>
+            <ul class="subcategory">
+                <li><a href="freetable.html">자유게시판</a></li>
+                <li><a href="#">게임 리뷰</a></li>
+                <li><a href="#">게임 공략</a></li>
+                <li><a href="#">게임 이슈</a></li>
+
+            </ul>
+
+            <li class="cat1"><a href="#">개발자 게시판</a></li>
+            <ul class="subcategory">
+                <li><a href="#">게임 등록</a></li>
+                <li><a href="#">개발 이슈</a></li>
+                <li><a href="#">엔진별 게시</a></li>
+                <ul class="sub2category">
+                    <li><a href="#">유니티</a></li>
+                    <li><a href="#">언리얼</a></li>
+                    <li><a href="#">기타 엔진</a></li>
+                </ul>
+            </ul>
+
+            <li class="cat1"><a href="#">마이 페이지</a></li>
+            <ul class="subcategory">
+                <li><a href="#">구매한 게임</a></li>
+                <li><a href="#">등록한 게임</a></li>
+                <li><a href="#">장바구니</a></li>
+                <li><a href="#">결제내역</a></li>
+                <li><a href="#">개인정보 수정</a></li>
+            </ul>
+
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <div id="welcome">
+        홈페이지에 오신것을 환영합니다.
+    </div>
+
+    <div id="thisweek">
+        금주의 추천 게임<br>
+        <img id="thisweekpic" src="img/게임1.jpg" alt="금주의 추천 게임1">
+    </div>
+
+    <div id="review">
+        최근 리뷰
+        <ul id="reviewbox">
+            <li>리뷰 제목 1</li>
+            <li>리뷰 제목 2</li>
+            <li>리뷰 제목 3</li>
+        </ul>
+    </div>
+
+
+
+
+</section>
+
+</body>
+</html>

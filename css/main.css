@@ -1,0 +1,85 @@
+#body {
+    padding: 8px 10px 0;
+    margin: 0px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginbox {
+    float: left;
+    width: 200px;
+    margin-left: 3px;
+    border:1px solid #ddd;
+    position: relative;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    border:1px solid #ddd;
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+
+.subcategory{
+    display: none;
+    float: bottom;
+}
+
+.cat1:hover + .subcategory{
+    display: inline-block;
+}
+
+.sub2category{
+    display: none;
+}
+
+.subcategory:hover .sub2category{
+    display: inline-block;
+}
+
+
+
+/*여기까지 베이스 css*/
+
+#welcome {
+    text-align: center;
+    height: 75px;
+    margin-top: 20%;
+}
+
+#thisweek {
+    margin-left: 100px;
+    height: 250px;
+}
+
+#thisweekpic {
+    display: block;
+    margin: 0px auto;
+}
+
+#review {
+    margin-left: 100px;
+    height: 75px;
+}
+
+#reviewbox {
+    border:1px solid #ddd;
+}
