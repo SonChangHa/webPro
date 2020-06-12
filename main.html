@@ -13,59 +13,62 @@
 <header>
     <img id="logo" src="./img/로고.png" alt="logo">
 
-    <div id="loginbox">
-        <form name="login" action="./login" method="get">
-            <label>사용자 ID : <input type="text" size="15" value=""><br></label>
-            <label>비밀 번호 : <input type="password" size="15" value=""><br></label>
-            <input type="submit" value="완료">
-        </form>
-    </div>
-
-    <nav id =cat>
-        <ul class="category">
-            <li class="cat1"><a href="#">게임</a></li>
-                <ul class="subcategory">
-                    <li><a href="#">금주의 게임</a></li>
-                    <li><a href="#">이벤트 중인 게임</a></li>
-                    <li><a href="#">장르별 보기</a></li>
-                    <ul class="sub2category">
-                        <li><a href="#">액션</a></li>
-                        <li><a href="#">롤플레잉</a></li>
-                    </ul>
-                </ul>
-
-            <li class="cat1"><a href="#">유저 게시판</a></li>
-            <ul class="subcategory">
-                <li><a href="freetable.html">자유게시판</a></li>
-                <li><a href="#">게임 리뷰</a></li>
-                <li><a href="#">게임 공략</a></li>
-                <li><a href="#">게임 이슈</a></li>
-
-            </ul>
-
-            <li class="cat1"><a href="#">개발자 게시판</a></li>
-            <ul class="subcategory">
-                <li><a href="#">게임 등록</a></li>
-                <li><a href="#">개발 이슈</a></li>
-                <li><a href="#">엔진별 게시</a></li>
-                <ul class="sub2category">
-                    <li><a href="#">유니티</a></li>
-                    <li><a href="#">언리얼</a></li>
-                    <li><a href="#">기타 엔진</a></li>
-                </ul>
-            </ul>
-
-            <li class="cat1"><a href="#">마이 페이지</a></li>
-            <ul class="subcategory">
-                <li><a href="#">구매한 게임</a></li>
-                <li><a href="#">등록한 게임</a></li>
-                <li><a href="#">장바구니</a></li>
-                <li><a href="#">결제내역</a></li>
-                <li><a href="#">개인정보 수정</a></li>
-            </ul>
-
-        </ul>
+    <nav>
+        <div id="loginbox">
+            <form name="login" action="./login" method="get">
+                <label>사용자 ID : <input type="text" size="15" value=""><br></label>
+                <label>비밀 번호 : <input type="password" size="15" value=""><br></label>
+                <input type="submit" value="완료">
+            </form>
+        </div>
     </nav>
+
+    <section>
+        <header>
+            <ul id="topcategory">
+                <li><a href="#">게임</a>
+                    <ul>
+                        <li><a href="#">금주의 게임</a></li>
+                        <li><a href="#">이벤트 중인 게임</a></li>
+                        <div class="cate_text">장르별 보기</div>
+                        <ul class="sub2category">
+                            <li><a href="#">액션</a></li>
+                            <li><a href="#">롤플레잉</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li><a href="#">유저 게시판</a>
+                    <ul>
+                        <li><a href="freetable.html">자유게시판</a></li>
+                        <li><a href="#">게임 리뷰</a></li>
+                        <li><a href="#">게임 공략</a></li>
+                        <li><a href="#">게임 이슈</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">개발자 게시판</a>
+                    <ul>
+                        <li><a href="#">게임 등록</a></li>
+                        <li><a href="#">개발 이슈</a></li>
+                        <div class="cate_text">엔진별 게시판</div>
+                        <ul class="sub2category">
+                            <li><a href="#">유니티</a></li>
+                            <li><a href="#">언리얼</a></li>
+                            <li><a href="#">기타 엔진</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li><a href="#">마이 페이지</a>
+                    <ul>
+                        <li><a href="#">구매한 게임</a></li>
+                        <li><a href="#">등록한 게임</a></li>
+                        <li><a href="#">장바구니</a></li>
+                        <li><a href="#">결제내역</a></li>
+                        <li><a href="#">개인정보 수정</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+    </section>
 </header>
 
 <section>
