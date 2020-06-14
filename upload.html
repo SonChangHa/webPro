@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="./css/write.css" rel="stylesheet" type="text/css" />
+    <link href="./css/upload.css" rel="stylesheet" type="text/css" />
     <title>메인 페이지</title>
 </head>
 
@@ -69,9 +69,14 @@
 
 <section id="section">
 
-    <form name="writeform" action="freetable.html">
-        <label>글 제목 : <input type="text" id="title"><br></label>
-        <label id="postlable">글 내용 : <textarea id="post" rows="10"></textarea></label>
+    <form name="writeform" action="freetable.html" method="post" enctype="multipart/form-data" name="">
+        <label>게임 이름 : <input type="text" id="title"></label>
+        <br>
+        <label id="postlable">게임 설명 : <textarea id="post" rows="10"></textarea></label>
+        <br>
+        <label>게임 사진 : <input type="file" class="test1" name="FileName"></label>
+        <br>
+        <label>게임 파일 : <input type="file" class="test1" name="FileName"></label>
         <br>
         <input id="submitbutten" type="submit" value="완료">
     </form>

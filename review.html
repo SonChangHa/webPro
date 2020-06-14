@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="./css/write.css" rel="stylesheet" type="text/css" />
+    <link href="./css/review.css" rel="stylesheet" type="text/css" />
     <title>메인 페이지</title>
 </head>
 
@@ -67,16 +67,54 @@
     </nav>
 </header>
 
-<section id="section">
 
-    <form name="writeform" action="freetable.html">
-        <label>글 제목 : <input type="text" id="title"><br></label>
-        <label id="postlable">글 내용 : <textarea id="post" rows="10"></textarea></label>
-        <br>
-        <input id="submitbutten" type="submit" value="완료">
-    </form>
+<nav>
+    <section id="section">
 
-</section>
+        <div id="welcome">
+            게임 리뷰
+        </div>
+
+        <table id="freepostlist" border="1">
+
+            <thead>
+            <tr>
+                <th id="freecate">카테고리</th>
+                <th id="freepostname">글 제목</th>
+                <th id="freepostwriter">작성자</th>
+                <th id="freeposttime">작성시간</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>게임1</td>
+                <td class="goto"><a href="post_detail.html">글 제목 1</a></td>
+                <td>홍길동</td>
+                <td>12:00</td>
+            </tr>
+            <tr>
+                <td>게임2</td>
+                <td class="goto"><a href="post_detail.html">글 제목 2</a></td>
+                <td>홍길동</td>
+                <td>12:00</td>
+            </tr>
+            <tr>
+                <td>게임3</td>
+                <td class="goto"><a href="post_detail.html">글 제목 3</a></td>
+                <td>홍길동</td>
+                <td>12:00</td>
+            </tr>
+            </tbody>
+
+        </table>
+        <input id="writebutten" type="button" value="글쓰기" onClick="location.href='write.html'">
+
+
+
+
+    </section>
+</nav>
 
 </body>
 </html>

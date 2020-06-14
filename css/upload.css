@@ -56,8 +56,8 @@
     font-size: 15px;
     padding: 7px 8px;
     margin: 0;
+    color: #fff;
     text-decoration: none;
-    color: #ffffff;
     text-shadow: 0 1px 1px rgba(0,0,0,3);
 }
 
@@ -111,30 +111,35 @@
 
 /*여기까지 베이스 css*/
 
-#thisweek {
-    display: block;
-    margin-left: auto;
-    height: 250px;
-    text-align: center;
+#section {
+    margin: 50px auto;
+    padding: 10px 10px 10px 20px;
+    width: 50%;
+    border: 1px solid #444444;
 }
 
-#thisweekpic {
-    display: block;
-    margin: 0px auto;
-    width: 30%;
+#writeform {
+    border: 30px;
 }
 
-#review {
-    text-align: center;
-    position: relative;
-    top: 55px;
+
+#title {
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
-#reviewbox {
-    border:1px solid #ddd;
-    margin: auto;
-    width: 40%;
-    height: auto;
-    position: relative;
-    top: 55px;
+#post {
+    width: 75%;
+    resize: none;
+}
+
+.test1{
+    margin-top: 15px;
+}
+
+
+#submitbutten {
+    margin-left: 80%;
+
 }

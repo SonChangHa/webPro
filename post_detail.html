@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/html">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link href="./css/post_detail.css" rel="stylesheet" type="text/css" />
+    <title>메인 페이지</title>
+</head>
+
+
+<body id="body">
+<header>
+    <a href="main.html"><img id="logo" src="./img/로고.png" alt="logo"></a>
+
+    <div id="loginbox">
+        <form name="login" action="./login" method="get">
+            <label>사용자 ID : <input type="text" size="15" value=""><br></label>
+            <label>비밀 번호 : <input type="password" size="15" value=""><br></label>
+            <input type="submit" value="완료">
+        </form>
+    </div>
+
+    <nav>
+    <ul id="topcategory">
+        <li><a href="#">게임</a>
+            <ul>
+                <li><a href="gameOfTheWeek.html">금주의 게임</a></li>
+                <li><a href="gameInEvent.html">이벤트 중인 게임</a></li>
+                <div class="cate_text">장르별 보기</div>
+                <ul class="sub2category">
+                    <li><a href="action.html">액션</a></li>
+                    <li><a href="RPG.html">롤플레잉</a></li>
+                </ul>
+            </ul>
+        </li>
+        <li><a href="#">유저 게시판</a>
+            <ul>
+                <li><a href="freetable.html">자유게시판</a></li>
+                <li><a href="review.html">게임 리뷰</a></li>
+                <li><a href="solution.html">게임 공략</a></li>
+                <li><a href="issue.html">게임 이슈</a></li>
+            </ul>
+        </li>
+        <li><a href="#">개발자 게시판</a>
+            <ul>
+                <li><a href="upload.html">게임 등록</a></li>
+                <li><a href="programIssue.html">개발 이슈</a></li>
+                <div class="cate_text">엔진별 게시판</div>
+                <ul class="sub2category">
+                    <li><a href="unity.html">유니티</a></li>
+                    <li><a href="unreal.html">언리얼</a></li>
+                    <li><a href="ETC.html">기타 엔진</a></li>
+                </ul>
+            </ul>
+        </li>
+        <li><a href="#">마이 페이지</a>
+            <ul>
+                <li><a href="buy.html">구매한 게임</a></li>
+                <li><a href="upgame.html">등록한 게임</a></li>
+                <li><a href="basket.html">장바구니</a></li>
+                <li><a href="Payment.html">결제내역</a></li>
+                <li><a href="personal.html">개인정보 수정</a></li>
+            </ul>
+        </li>
+    </ul>
+    </nav>
+</header>
+
+<section id="section">
+
+     <table border="1">
+         <th colspan="2">글 제목 1</th>
+         <tr id="mix">
+             <td id="writer">홍길동</td>
+             <td id="postTime">12:00</td>
+         </tr>
+         <tr>
+             <td id="post" colspan="2">
+<pre>글 내용
+글 내용
+글 내용
+</pre>
+             </td>
+         </tr>
+     </table>
+
+</section>
+
+
+</body>
+</html>

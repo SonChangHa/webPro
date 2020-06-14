@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="./css/write.css" rel="stylesheet" type="text/css" />
+    <link href="./css/gameOfTheWeek.css" rel="stylesheet" type="text/css" />
     <title>메인 페이지</title>
 </head>
 
@@ -67,14 +67,34 @@
     </nav>
 </header>
 
-<section id="section">
-
-    <form name="writeform" action="freetable.html">
-        <label>글 제목 : <input type="text" id="title"><br></label>
-        <label id="postlable">글 내용 : <textarea id="post" rows="10"></textarea></label>
+<section>
+    <div id="thisweek">
         <br>
-        <input id="submitbutten" type="submit" value="완료">
-    </form>
+        액션<br>
+        <img id="thisweekpic" src="img/게임1.jpg" alt="금주의 추천 게임1">
+    </div>
+
+    <table id="freepostlist" border="1">
+
+        <tbody>
+        <tr>
+            <td class="genre" rowspan="2">액션, RPG</td>
+            <td class="pic" rowspan="2"><a href="post_detail.html"><img src="img/게임1.jpg" alt="금주의 추천 게임1"></a></td>
+            <td class="title">몬스터 헌터 월드</td>
+        </tr>
+        <tr>
+            <td class="sub">Welcome to a new world!
+                In Monster Hunter: World, the latest installment in the series,
+                you can enjoy the ultimate hunting experience,
+                using everything at your disposal to hunt monsters in
+                a new world teeming with surprises and excitement.
+            </td>
+        </tr>
+        </tbody>
+
+    </table>
+
+
 
 </section>
 
